@@ -1,0 +1,9 @@
+{
+  "rewrites": [
+    { "source": "/api/properties", "destination": "/api/properties.js" },
+    { "source": "/api/clients", "destination": "/api/clients.js" },
+    { "source": "/properties", "destination": "/public/properties.html" },
+    { "source": "/register", "destination": "/public/register.html" },
+    { "source": "/", "destination": "/public/index.html" }
+  ]
+}
